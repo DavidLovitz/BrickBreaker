@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ this\ initializes\ the\ GuiFrame\ and\ starts\ the\ game\n\ @param\ args\ this\ parameter\ is\ not\ used\n
+numComments=1

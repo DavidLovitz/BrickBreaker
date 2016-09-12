@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Paddle()
+comment0.text=\n\ this\ is\ the\ main\ constructor\ for\ the\ paddle\ class\n
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment1.text=\n\ the\ paintComponent\ method\ draws\ the\ paddle\ at\ the\ current\ location\ \n
+comment2.params=x\ y
+comment2.target=void\ movePaddleTo(int,\ int)
+comment2.text=\n\ the\ movepaddleTo\ method\ allows\ you\ to\ move\ the\ paddle\ to\ a\ certain\ x\ and\ y\ coordinate\ and\ makes\ sure\ that\ the\ paddle\ stays\ within\ the\ game\ board\n\ @param\ x\ takes\ the\ new\ x\ coordinate\ for\ the\ upper\ left\ corner\ of\ the\ paddle\n\ @param\ y\ takes\ the\ new\ y\ coordinate\ for\ the\ upper\ left\ corner\ of\ the\ paddle\n
+comment3.params=x\ y
+comment3.target=boolean\ isInside(int,\ int)
+comment3.text=\n\ the\ isInside\ method\ allows\ you\ to\ check\ whether\ a\ certain\ x,y\ point\ is\ inside\ the\ paddle\n\ @param\ x\ takes\ the\ x\ coordinate\ you\ want\ to\ check\ as\ an\ integer\n\ @param\ y\ takes\ the\ y\ coordinate\ you\ want\ to\ check\ as\ an\ integer\n
+numComments=4

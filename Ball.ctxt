@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=x\ y\ diameter
+comment0.target=Ball(int,\ int,\ int)
+comment0.text=\n\ this\ is\ the\ main\ constructor\ for\ the\ ball\ class\n\ @param\ x\ takes\ the\ starting\ x\ coordinate\ as\ an\ integer\ for\ the\ upper\ left\ corner\ of\ the\ box\ that\ encases\ the\ circle\n\ @param\ y\ takes\ the\ starting\ y\ coordinate\ as\ an\ integer\ for\ the\ upper\ left\ corner\ of\ the\ box\ that\ encases\ the\ circle\n\ @param\ diameter\ takes\ the\ balls\ diameter\ as\ an\ integer\n
+comment1.params=x\ y
+comment1.target=void\ moveBallTo(int,\ int)
+comment1.text=\n\ the\ moveBallTo\ method\ allows\ you\ to\ transport\ the\ ball\ to\ a\ certain\ x,y\ coordinate\n\ @param\ x\ new\ x\ coordinate\ as\ an\ integer\n\ @param\ y\ new\ y\ coordinate\ as\ an\ integer\n
+comment2.params=dx\ dy
+comment2.target=void\ moveBallBy(int,\ int)
+comment2.text=\n\ the\ moveBallBy\ method\ allows\ you\ to\ move\ the\ ball\ by\ a\ specified\ amount\ in\ the\ x\ and\ y\ directions\n\ @param\ dx\ takes\ the\ change\ in\ x\ as\ an\ integer\ (can\ be\ positive\ or\ negative,\ positive\ for\ right,\ negative\ for\ left)\n\ @param\ dy\ takes\ the\ change\ in\ y\ as\ an\ integer\ (can\ be\ positive\ or\ negative,\ positive\ for\ down,\ negative\ for\ up)\n
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment3.text=\n\ the\ paintComponent\ method\ draws\ the\ ball\ object\n\ @param\ g\ takes\ a\ Graphics\ object\n
+comment4.params=
+comment4.target=int\ get_X_Coordinate()
+comment4.text=\n\ the\ get_X_Coordinate()\ method\ allows\ you\ to\ access\ the\ x\ coordinate\ of\ the\ balls\ upper\ left\ corner\n\ @return\ currentBallX\ returns\ the\ current\ x\ coordinate\ for\ the\ upper\ left\ corner\ of\ the\ balls\ bounds\n
+comment5.params=
+comment5.target=int\ get_Y_Coordinate()
+comment5.text=\n\ the\ get_Y_Coordinate()\ method\ allows\ you\ to\ access\ the\ y\ coordinate\ of\ the\ balls\ upper\ left\ corner\n\ @return\ currentBallY\ returns\ the\ current\ y\ coordinate\ for\ the\ upper\ left\ corner\ of\ the\ balls\ bounds\n
+numComments=6

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Game()
+comment0.text=\n\ this\ is\ the\ main\ constructor\ for\ the\ game\ class\ which\ takes\ no\ arguments\ and\ initializes\ the\ paddle\ and\ ball\ and\ starts\ a\ new\ game\ automatically\n
+comment1.params=
+comment1.target=void\ newGame()
+comment1.text=\n\ the\ newGame\ method\ allows\ you\ to\ create\ a\ new\ game\ with\ score\=0\ and\ lives\=3,\ it\ will\ also\ reset\ the\ board\ and\ round\ number\n
+comment2.params=
+comment2.target=void\ newBoard()
+comment2.text=\n\ the\ newBoard\ method\ redraws\ the\ board\ it\ will\ also\ increment\ the\ round\ number\ and\ lives\ by\ 1\n
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment3.text=\n\ the\ paintComponent\ method\ draws\ all\ of\ the\ graphics\ for\ the\ game\ including\ the\ board,\ score,\ and\ calls\ the\ draw\ methods\ for\ the\ bricks,\ ball,\ and\ paddle\n\ @param\ g\ takes\ a\ Graphics\ object\n
+comment4.params=
+comment4.target=void\ paddleMovement()
+comment4.text=\n\ the\ paddleMovement\ method\ moves\ the\ paddle\ in\ line\ with\ the\ mouse\ so\ that\ the\ center\ of\ the\ paddle\ is\ in\ line\ with\ the\ mouses\ x\ coordinate\n\ to\ make\ the\ computer\ play\ for\ you\ uncomment\ the\ line\ that\ is\ commented\ out\ and\ the\ comment\ out\ the\ line\ "myPaddle.movePaddleTo(dx-45,625);"\n
+comment5.params=
+comment5.target=void\ playGame()
+comment5.text=\n\ the\ playGame\ method\ runs\ the\ main\ gameplay,\ it\ controls\ the\ balls\ movement\ and\ all\ collisions\ with\ a\ brick,\ the\ walls\ or\ the\ paddle\n\ it\ also\ calls\ the\ balls\ move\ method\ and\ checks\ to\ see\ of\ the\ players\ lives\ have\ run\ out\ yet\ or\ if\ the\ board\ has\ been\ cleared,\ if\ the\ board\ has\ been\ cleared\ it\ will\ call\ newBoard()\n
+numComments=6

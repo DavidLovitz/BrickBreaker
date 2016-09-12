@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GuiFrame()
+comment0.text=\n\ this\ is\ the\ main\ constructor\ for\ the\ GuiFrame\ class,\ it\ adds\ the\ game\ to\ frame\ as\ well\ as\ initializing\ the\ action\ listener\ and\ adding\ it\ to\ the\ game\n
+numComments=1
